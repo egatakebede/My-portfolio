@@ -8,21 +8,21 @@ export function Testimonials() {
     {
       name: 'Sarah Mitchell',
       role: 'CEO, TechStartup Inc.',
-      content: 'Alex delivered exceptional work on our platform. His attention to detail and technical expertise exceeded our expectations. The project was completed ahead of schedule.',
+      content: 'EGATA KEBEDE delivered exceptional work on our platform. His attention to detail and technical expertise exceeded our expectations. The project was completed ahead of schedule.',
       avatar: 'SM',
       rating: 5
     },
     {
       name: 'Michael Chen',
       role: 'Product Manager, Digital Co.',
-      content: 'Working with Alex was a pleasure. He brought creative solutions to complex problems and maintained excellent communication throughout the project.',
+      content: 'Working with EGATA KEBEDE was a pleasure. He brought creative solutions to complex problems and maintained excellent communication throughout the project.',
       avatar: 'MC',
       rating: 5
     },
     {
       name: 'Emily Rodriguez',
       role: 'CTO, Innovation Labs',
-      content: 'Alex is a talented developer with deep knowledge of modern web technologies. His code quality and problem-solving skills are outstanding.',
+      content: 'EGATA KEBEDE is a talented developer with deep knowledge of modern web technologies. His code quality and problem-solving skills are outstanding.',
       avatar: 'ER',
       rating: 5
     }

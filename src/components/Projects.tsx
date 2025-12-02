@@ -3,7 +3,7 @@ import { ExternalLink, Github } from 'lucide-react';
 import { Card } from './ui/card';
 import { Badge } from './ui/badge';
 import { Button } from './ui/button';
-import { ImageWithFallback } from './figma/ImageWithFallback';
+
 import { useState } from 'react';
 
 export function Projects() {
@@ -11,7 +11,7 @@ export function Projects() {
     {
       title: 'Enterprise E-Commerce Platform',
       description: 'Built a scalable e-commerce solution processing 10K+ daily transactions with real-time inventory sync, secure payment processing, and comprehensive admin analytics dashboard.',
-      image: 'https://images.unsplash.com/photo-1658297063569-162817482fb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlfGVufDF8fHx8MTc2Mjc1ODI1OHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: 'https://images.unsplash.com/photo-1658297063569-162817482fb6?w=600&h=400&fit=crop',
       tags: ['React', 'Node.js', 'PostgreSQL', 'Stripe', 'AWS'],
       github: 'https://github.com',
       demo: 'https://example.com'
@@ -19,7 +19,7 @@ export function Projects() {
     {
       title: 'Team Collaboration Suite',
       description: 'Real-time project management platform with task tracking, team messaging, video calls, and file sharing. Serves 5,000+ active users across 100+ organizations.',
-      image: 'https://images.unsplash.com/photo-1627634771121-fa3db5779f60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudCUyMHByb2plY3R8ZW58MXx8fHwxNzYyNzUxNTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: 'https://images.unsplash.com/photo-1627634771121-fa3db5779f60?w=600&h=400&fit=crop',
       tags: ['Next.js', 'TypeScript', 'MongoDB', 'Socket.io', 'Docker'],
       github: 'https://github.com',
       demo: 'https://example.com'
@@ -27,7 +27,7 @@ export function Projects() {
     {
       title: 'Social Analytics Platform',
       description: 'AI-powered analytics dashboard aggregating data from multiple social platforms. Features include sentiment analysis, automated reporting, and ROI tracking.',
-      image: 'https://images.unsplash.com/photo-1605108222700-0d605d9ebafe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzYyNjk0ODE0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: 'https://images.unsplash.com/photo-1605108222700-0d605d9ebafe?w=600&h=400&fit=crop',
       tags: ['Vue.js', 'Python', 'Django', 'Redis', 'TensorFlow'],
       github: 'https://github.com',
       demo: 'https://example.com'
@@ -157,7 +157,7 @@ function ProjectCard({ project, index }: { project: any; index: number }) {
             animate={isHovered ? { scale: 1.1 } : { scale: 1 }}
             transition={{ duration: 0.3 }}
           >
-            <ImageWithFallback
+            <img
               src={project.image}
               alt={project.title}
               className="w-full h-full object-cover"

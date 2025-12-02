@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from 'motion/react';
 import { Code2, Lightbulb, Rocket } from 'lucide-react';
-import { ImageWithFallback } from './figma/ImageWithFallback';
+
 import { useRef } from 'react';
 
 export function About() {
@@ -82,8 +82,8 @@ export function About() {
               whileHover={{ scale: 1.02, rotate: -1 }}
               transition={{ duration: 0.3 }}
             >
-              <ImageWithFallback
-                src="https://images.unsplash.com/photo-1566915896913-549d796d2166?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2RpbmclMjB3b3Jrc3BhY2UlMjBkZXZlbG9wZXJ8ZW58MXx8fHwxNzYyNzcwMDkzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              <img
+                src="https://images.unsplash.com/photo-1566915896913-549d796d2166?w=600&h=400&fit=crop"
                 alt="Developer workspace"
                 className="relative rounded-2xl w-full h-auto object-cover shadow-xl"
               />

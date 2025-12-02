@@ -1,7 +1,7 @@
 
-  # Dynamic Portfolio Website
+  # EGATA KEBEDE - Portfolio Website
 
-  This is a code bundle for Dynamic Portfolio Website. The original project is available at https://www.figma.com/design/ww5jU7aE2vvIGwfHRTri56/Dynamic-Portfolio-Website.
+  A modern, responsive portfolio website showcasing my skills and projects as a fullstack developer.
 
   ## Running the code
 

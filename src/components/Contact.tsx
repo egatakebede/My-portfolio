@@ -31,8 +31,8 @@ export function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      value: 'hello@alexjohnson.dev',
-      link: 'mailto:hello@alexjohnson.dev'
+      value: 'hello@egatakebede.dev',
+      link: 'mailto:hello@egatakebede.dev'
     },
     {
       icon: MapPin,
@@ -43,13 +43,13 @@ export function Contact() {
     {
       icon: Github,
       title: 'GitHub',
-      value: '@alexjohnson',
+      value: '@egatakebede',
       link: 'https://github.com'
     },
     {
       icon: Linkedin,
       title: 'LinkedIn',
-      value: 'Alex Johnson',
+      value: 'EGATA KEBEDE',
       link: 'https://linkedin.com'
     }
   ];
