@@ -31,8 +31,8 @@ export function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      value: 'hello@egatakebede.dev',
-      link: 'mailto:hello@egatakebede.dev'
+      value: 'egatakebede7@gmail.com',
+      link: 'mailto:egatakebede7@gmail.com'
     },
     {
       icon: MapPin,
