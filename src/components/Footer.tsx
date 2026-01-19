@@ -7,7 +7,7 @@ export function Footer() {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
-              <h3 className="mb-4 text-white">Alex Johnson</h3>
+              <h3 className="mb-4 text-white">EGATA KEBEDE</h3>
               <p className="text-slate-400">
                 Fullstack Developer specializing in building exceptional digital experiences.
               </p>
@@ -27,7 +27,7 @@ export function Footer() {
               <h4 className="mb-4 text-white">Connect</h4>
               <div className="flex gap-4">
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/egatakebede" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-slate-400 hover:text-white transition-colors"
@@ -36,7 +36,7 @@ export function Footer() {
                   <Github className="w-5 h-5" />
                 </a>
                 <a 
-                  href="https://linkedin.com" 
+                  href="https://linkedin.com/in/egatakebede" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-slate-400 hover:text-white transition-colors"
@@ -45,7 +45,7 @@ export function Footer() {
                   <Linkedin className="w-5 h-5" />
                 </a>
                 <a 
-                  href="mailto:hello@alexjohnson.dev"
+                  href="mailto:hello@egatakebede.dev"
                   className="text-slate-400 hover:text-white transition-colors"
                   aria-label="Email"
                 >
@@ -57,7 +57,7 @@ export function Footer() {
           
           <div className="border-t border-slate-800 pt-8 text-center">
             <p className="flex items-center justify-center gap-2 text-slate-400">
-              Built with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> by Alex Johnson
+              Built with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> by EGATA KEBEDE
             </p>
             <p className="text-slate-500 mt-2">
               © {new Date().getFullYear()} All rights reserved.

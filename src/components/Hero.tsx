@@ -207,9 +207,9 @@ export function Hero() {
             className="flex gap-6 justify-center"
           >
             {[
-              { icon: Github, href: 'https://github.com' },
-              { icon: Linkedin, href: 'https://linkedin.com' },
-              { icon: Mail, href: 'mailto:hello@example.com' }
+              { icon: Github, href: 'https://github.com/egatakebede' },
+              { icon: Linkedin, href: 'https://linkedin.com/in/egatakebede' },
+              { icon: Mail, href: 'mailto:hello@egatakebede.dev' }
             ].map((social, index) => (
               <motion.a
                 key={index}

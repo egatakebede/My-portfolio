@@ -81,12 +81,37 @@ export function About() {
             <motion.div
               whileHover={{ scale: 1.02, rotate: -1 }}
               transition={{ duration: 0.3 }}
+              className="relative"
             >
-              <img
-                src="https://images.unsplash.com/photo-1566915896913-549d796d2166?w=600&h=400&fit=crop"
-                alt="Developer workspace"
-                className="relative rounded-2xl w-full h-auto object-cover shadow-xl"
-              />
+              <div className="grid grid-cols-2 gap-4">
+                <motion.img
+                  src="https://images.unsplash.com/photo-1566915896913-549d796d2166?w=300&h=200&fit=crop"
+                  alt="Developer workspace"
+                  className="rounded-xl object-cover shadow-lg"
+                  whileHover={{ scale: 1.05 }}
+                />
+                <motion.img
+                  src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=300&h=200&fit=crop"
+                  alt="Coding setup"
+                  className="rounded-xl object-cover shadow-lg"
+                  whileHover={{ scale: 1.05 }}
+                />
+                <motion.img
+                  src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=300&h=200&fit=crop"
+                  alt="Development tools"
+                  className="rounded-xl object-cover shadow-lg"
+                  whileHover={{ scale: 1.05 }}
+                />
+                <motion.div
+                  className="bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl p-6 flex items-center justify-center text-white"
+                  whileHover={{ scale: 1.05 }}
+                >
+                  <div className="text-center">
+                    <div className="text-2xl font-bold">5+</div>
+                    <div className="text-sm opacity-90">Years Experience</div>
+                  </div>
+                </motion.div>
+              </div>
             </motion.div>
 
             {/* Floating elements */}
@@ -133,29 +158,36 @@ export function About() {
               Building Digital Excellence Through Code
             </motion.h3>
             
-            <motion.p 
-              className="text-slate-600 mb-6"
+            <motion.div
+              className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl p-6 mb-6"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
               viewport={{ once: true }}
             >
-              With over 5 years of professional experience, I specialize in architecting and developing 
-              enterprise-grade web applications that drive measurable business results. My expertise spans 
-              the full development lifecycle, from initial concept and UX design to deployment and optimization.
-            </motion.p>
+              <p className="text-slate-700 leading-relaxed">
+                With over 5 years of professional experience, I specialize in architecting and developing 
+                enterprise-grade web applications that drive measurable business results. My expertise spans 
+                the full development lifecycle, from initial concept and UX design to deployment and optimization.
+              </p>
+            </motion.div>
             
-            <motion.p 
-              className="text-slate-600 mb-8"
+            <motion.div
+              className="grid grid-cols-2 gap-4 mb-8"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
               viewport={{ once: true }}
             >
-              I'm passionate about clean code, performance optimization, and creating intuitive user experiences. 
-              My approach combines technical excellence with business acumen, ensuring solutions that are both 
-              technically sound and commercially viable.
-            </motion.p>
+              <div className="bg-white rounded-lg p-4 shadow-sm border border-slate-100">
+                <div className="text-2xl font-bold text-blue-600">50+</div>
+                <div className="text-sm text-slate-600">Projects Completed</div>
+              </div>
+              <div className="bg-white rounded-lg p-4 shadow-sm border border-slate-100">
+                <div className="text-2xl font-bold text-purple-600">15+</div>
+                <div className="text-sm text-slate-600">Happy Clients</div>
+              </div>
+            </motion.div>
 
             <div className="space-y-4">
               {highlights.map((highlight, index) => (
